@@ -1,4 +1,3 @@
-#Ist meine ersten Test für Travis CI
 sudo: required
 services:
   - docker
