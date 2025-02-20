@@ -1,6 +1,6 @@
 
 FROM node:16.3.0-alpine
-RUN gem install nokogiri
+RUN npm install nokogiri
 
 #RUN addgroup app && adduser -S -G app app
 #RUN mkdir /app && chown -R app:app /app

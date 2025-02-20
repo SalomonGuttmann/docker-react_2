@@ -1,5 +1,5 @@
 FROM node:16.3.0-alpine as builder
-RUN gem install nokogiri
+RUN npm install nokogiri
 WORKDIR '/app'
 COPY package.json .
 RUN npm install
