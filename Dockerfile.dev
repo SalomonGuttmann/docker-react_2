@@ -1,5 +1,5 @@
 
-FROM node:16-alpine
+FROM node:alpine
 
 #RUN addgroup app && adduser -S -G app app
 #RUN mkdir /app && chown -R app:app /app
