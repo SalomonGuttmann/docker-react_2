@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           {/* Edit <code>src/App.js</code> and save to reload. */}
-          I laufe auf GCP Salomon!
+          I running on Google Application Engine Salomon!
         </p>
         <a
           className="App-link"
