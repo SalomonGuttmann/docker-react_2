@@ -21,9 +21,6 @@ deploy:
   on:
     branch: master
 
-after_deploy: 
-  - gcloud auth activate-service-account --key-file=my-fist-project-65535-7634dabedb77.json
-
 
 
 
