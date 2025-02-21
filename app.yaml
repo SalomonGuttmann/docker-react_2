@@ -8,4 +8,3 @@
 # id.
 
 runtime: nodejs18
-service_account: SERVICE_FRONTEND@my-first-project-65535.iam.gserviceaccount.com
