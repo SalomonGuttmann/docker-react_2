@@ -6,5 +6,5 @@
 # TODO: Enter your application id below. If you have signed up
 # using cloud.google.com/console use the "project id" for your application
 # id.
-#runtime: python39
+
 runtime: nodejs
