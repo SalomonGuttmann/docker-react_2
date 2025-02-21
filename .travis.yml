@@ -1,3 +1,4 @@
+#no org
 language: python
 python:
   - '3.8'
@@ -8,7 +9,13 @@ services:
 
 before_install: 
   - docker build -t salomonguttmann/docker-react_2 -f Dockerfile.dev .
- 
+  #no org
+  - mkdir -p lib
+
+#no org
+install:
+# Install the Python dependencies
+- pip install -r requirements.txt -t lib/ 
 
 script: 
   - docker run -e CI=true salomonguttmann/docker-react_2 npm run test
