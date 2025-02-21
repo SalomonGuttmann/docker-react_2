@@ -8,14 +8,11 @@ services:
 
 before_install: 
   - docker build -t salomonguttmann/docker-react_2 -f Dockerfile.dev .
-  - gcloud auth activate-service-account --key-file my-fist-project-65535-7634dabedb77.json
+ 
 
 script: 
   - docker run -e CI=true salomonguttmann/docker-react_2 npm run test
   
-  
-
-   
 
 deploy:
   provider: gae
