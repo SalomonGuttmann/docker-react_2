@@ -9,16 +9,12 @@ script:
   - docker run -e CI=true salomonguttmann/docker-react_2 npm run test   
 
 deploy:
-  provider: elasticbeanstalk
-  region: "eu-west-3"
-  app: "frontend"
-  env: "frontend-env"
-  bucket_name: "elasticbeanstalk-eu-west-3-248749481552"
-  bucket_path: "frontend"
+  provider: gae
+  keyfile: "my-fist-project-65535-fbc377dbbeea.json"
+  project: "my-fist-project-65535"
   on:
-    branch: master
-  access_key_id: "$AWS_ACCESS_KEY"
-  secret_access_key: "$AWS_SECRET_KEY" 
+    branch: master  
+
 
 
 
