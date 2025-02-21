@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "my-fist-project-65535",
+  "private_key_id": "18d29a1e0999ff31f21a0a470058688af51675cd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDz5uH+sdCpx6Bu\n7Mjy8Idqvsfstm/ozAk3Wajfip8G17yHPqkJdS7zXUWFUSO3FmrHiMRGR/bZG/v3\ndhN2L2gjDRbALJ//iwKIp2mCmBl57faJf9uNzHznfxBBJlfa1tv/dxf+BYK1GYug\naxabdvsGFMlwWceDvrfjdpuZKoPKuaSIgM9ZUJDu2W+XEubnkFPA/M7jsr0GeJsK\nboUKItjbCX3u7tzlyQlnxvEQmzeQi8GyuE6dWUrG7aFd6vZyxV/EltLPU9v10yJ3\nCGQGpEz6edQ+iWGJwZz2Z1FcWcwxIXi9gFbcqVlULj3c4nrdQfamM/kgQysiZSDh\nPLL5cdUDAgMBAAECggEAKyCt4JAHsiXS+BpVlCO1BkqS5ogB9NuzW362rkSAR0D5\nnL6XPE1kznK1OtQ0qQjFO+AyuKy7+PsKTGEsIs9SLjR/y954MkMd4RUdQpLrmlRa\nLkkWBRZeFb8xnBuQGGm6wAsKiofl62kHeAfHmRjqXVJqpjux3FlqgcW00NokMMHX\nd7loVsuCLKdc1lWkoOLhSlZQwLmcsQem8BFNYSENk1CXhSwUIgofU817SnypMTFs\nSze5NMScqOHcbWH7A3/Dm1Y3c/JsG4x3QwwAZpcVKEWoK04/nxtbJiFIaxXQ+ncU\nNaD0K3DLKelsLq+1VC6fR4SM6PO6iR3Bh99LAAhxbQKBgQD7BJOlKr6YUUmgZ72+\nmjdFYEdhh42OEARqBKyIaUVrvL4Y9nB+Gt7bRWYfKEyudr/fHPoR7C3pSf7u45RB\nebj+wpB7LyE1+PTujpSRoFbWcFnQ+GdhWcwqdrgVVDIRwznfzj/0hk9FtHBOkeq2\noTrCm2RIF8YFTXSbuFLI/7eZRQKBgQD4viZP/Ge77aPsWf2UOfaEFYrNBgbo5f0U\nCM/iFnTEKMXerKogI+yc90AAfJqUU37G997Pzm7NwWcQP4u/141ucq5ZFIUibR7/\n3JV01OxHpNNyeBqrDWXq0SVlwNzfNya1B5HnZJcZscb3wyUCH90FibGmSTCgEzUN\nxyeM4JyFpwKBgQCEYtGLlpOWuahfFNeZorPrvu9mnJsnhYMOdxCXkQ2v2IdZmv+R\nQpKuildlr1dh2/ctsJaixTEhjIkLbLNQJOZQVkTk8uJNGNP0zPXGKA4kYnS8JYZA\nbZ+j9aD4fsM5YwEu7BQG3p8IYDWq+oITd80JvfKRoxgoy8ToK7pdj6BBEQKBgQCM\nGv6VewQq9DWqwR11yhgyWbfut4BY2oJsMHJ3VFK80oJxZCwHInT6DMI+A/FFrqnw\nBFm6DvqWZmNY4ZIjopQFLA9MGaTLuU8GqwZ74hqcWBjJlyDeTBOl6dv4rmM6T2Q7\n/2GNRjldvabmk0JbKftiTSaFFSCQaYEum4iJb1J6bQKBgEP7p5GeoYdQveOhRFef\nYyC9CoJyLuGTXZTTdpwJLFIrfReImqAa4JY6WHBdwU2nQBCY2oU1sNrZWEoDpL3M\nhvrLmzVC0BRoUr86CVadVtW/w2N861kOXxTCiV+0+kRlA2E9kIYpPTgmwiHRf5UO\nV3IGvoDgEpPNTtVO8J65eOvy\n-----END PRIVATE KEY-----\n",
+  "client_email": "frontend-trvis-ci@my-fist-project-65535.iam.gserviceaccount.com",
+  "client_id": "100377357367594728904",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/frontend-trvis-ci%40my-fist-project-65535.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
