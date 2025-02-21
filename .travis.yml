@@ -11,7 +11,7 @@ before_install:
 
 script: 
   - docker run -e CI=true salomonguttmann/docker-react_2 npm run test
-  - gcloud auth activate-service-account --key-file=my-fist-project-65535-7634dabedb77.json
+  
   
 
    
