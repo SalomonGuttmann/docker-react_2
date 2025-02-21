@@ -1,7 +1,7 @@
 #no org
-#language: python
-#python:
-#  - '3.8'
+language: python
+python:
+  - '3.8'
 
 sudo: required
 services:
@@ -19,7 +19,10 @@ deploy:
   keyfile: my-fist-project-65535-7634dabedb77.json
   project: my-fist-project-65535
   on:
-    branch: master  
+    branch: master
+
+#after_deploy: 
+
 
 
 
