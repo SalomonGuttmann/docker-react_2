@@ -14,8 +14,8 @@ script:
 
 deploy:
   provider: gae
-  keyfile: "my-fist-project-65535-fbc377dbbeea.json"
-  project: "my-fist-project-65535"
+  keyfile: my-fist-project-65535-fbc377dbbeea.json
+  project: my-fist-project-65535
   on:
     branch: master  
 
