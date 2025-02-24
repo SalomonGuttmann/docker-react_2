@@ -13,6 +13,13 @@ WORKDIR /app
 COPY --chown=node:node package.json ./
 RUN npm install 
 
+FROM ruby:3.3.5
+# Install bundler gem
+RUN gem install bundler
+RUN gem install nokogiri --platform=ruby
+
+
+
 #COPY . .
 COPY --chown=node:node . .
 
