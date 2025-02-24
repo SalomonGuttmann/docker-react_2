@@ -13,6 +13,7 @@ WORKDIR /app
 COPY --chown=node:node package.json ./
 RUN npm install 
 
+USER root
 # install dependencies for application
 ENV NOKOGIRI_USE_SYSTEM_LIBRARIES=1
 
