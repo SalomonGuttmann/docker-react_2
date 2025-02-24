@@ -16,8 +16,8 @@ script:
 
 deploy:
   provider: gae
-  keyfile: quick-filament-378505-457ba39e057d.json
-  project: quick-filament-378505
+  keyfile: myproject98163-d2852ed8e0e2.json
+  project: myproject98163
   on:
     branch: master
 
