@@ -1,7 +1,7 @@
 #no org
-#language: python
-#python:
-#  - '3.8'
+language: python
+python:
+  - '3.8'
 
 sudo: required
 services:
@@ -22,12 +22,29 @@ before_deploy:
   
 
 deploy:
-  provider: gae
-  keyfile: myproject98163-d2852ed8e0e2.json
-  project: myproject98163
-  
+  provider: elasticbeanstalk
+  region: "eu-west-3"
+  app: "frontend"
+  env: "frontend-env"
+  bucket: "elasticbeanstalk-eu-west-3-248749481552"
+  bucket_path: "frontend"
   on:
-    branch: master
+   branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+
+
+
+
+
+
+#deploy:
+#  provider: gae
+#  keyfile: myproject98163-d2852ed8e0e2.json
+#  project: myproject98163
+#  
+#  on:
+#    branch: master
 
 
 
