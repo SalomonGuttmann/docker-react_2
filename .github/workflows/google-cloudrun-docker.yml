@@ -40,7 +40,7 @@ env:
   GAR_LOCATION: 'europe-west6'
   SERVICE: 'frontend' 
   REGION: 'europe-west6'
-  GOOGLE_APPLICATION_CREDENTIALS: '/home/runner/work/docker-react_2/docker-react_2/gha-creds-17a3ca1caca9d19d.json' 
+ 
    
 jobs:
   deploy:
@@ -67,7 +67,7 @@ jobs:
       - name: 'Docker Auth'
         run: |-
             gcloud auth configure-docker "${{ env.GAR_LOCATION }}-docker.pkg.dev"
-            gcloud auth activate-service-account --key-file='${{ secrets.GCP_CREDENTIALS }}'
+            
 
       - name: 'Build and Push Container'
         run: |-
