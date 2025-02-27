@@ -40,7 +40,7 @@ env:
   GAR_LOCATION: 'europe-west6'
   SERVICE: 'frontend' 
   REGION: 'europe-west6'
-  GOOGLE_APPLICATION_CREDENTIALS: './myproject98163-2f44d66f4c88.json' 
+  GOOGLE_APPLICATION_CREDENTIALS: '/home/runner/work/docker-react_2/docker-react_2/gha-creds-17a3ca1caca9d19d.json' 
    
 jobs:
   deploy:
