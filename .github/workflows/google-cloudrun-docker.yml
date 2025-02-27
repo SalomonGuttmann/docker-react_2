@@ -51,7 +51,7 @@ jobs:
 
     steps:
       - name: 'Checkout'
-        uses: 'actions/checkout@v0' # actions/checkout@v4 actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+        uses: 'actions/checkout@v4' # actions/checkout@v4 actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
         
       # NOTE: Alternative option - authentication via credentials json
       - name: Google Auth
