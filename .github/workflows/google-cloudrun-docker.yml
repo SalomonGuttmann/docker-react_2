@@ -39,8 +39,9 @@ env:
   GAR_NAME: 'gh-action'
   GAR_LOCATION: 'europe-west6'
   SERVICE: 'frontend' 
-  REGION: 'europe-west6' 
-
+  REGION: 'europe-west6'
+  GOOGLE_APPLICATION_CREDENTIALS: './myproject98163-2f44d66f4c88.json' 
+   
 jobs:
   deploy:
     runs-on: 'ubuntu-latest'
@@ -69,6 +70,7 @@ jobs:
 
       - name: 'Build and Push Container'
         run: |-
+          gcloud auth activate-service-account --key-file = "${{ env.GOOGLE_APPLICATION_CREDENTIALS }}"
           docker build -t "${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.SERVICE }}:${{ github.sha }}" ./
           docker push "${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.SERVICE }}:${{ github.sha }}"
       
