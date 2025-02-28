@@ -74,6 +74,7 @@ jobs:
       - name: 'Build and Push Container'
         run: |-
           docker build -t "${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.GAR_NAME }}/${{ env.SERVICE }}:${{ github.sha }}" ./
+          gcloud auth print-access-token | docker login -u oauth2accesstoken --password-stdin https://${{ env.GAR_LOCATION }}.pkg.dev
           docker push "${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.GAR_NAME }}/${{ env.SERVICE }}:${{ github.sha }}"
       
       - name: 'Deploy to Cloud Run'
