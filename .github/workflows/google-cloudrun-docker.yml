@@ -41,6 +41,7 @@ env:
   SERVICE: 'frontend' 
   REGION: 'europe-west6'
   WORKLOAD_IDENTITY_PROVIDER: 'projects/831933258224/locations/global/workloadIdentityPools/github/providers/my-repo'
+  
  
    
 jobs:
@@ -62,6 +63,7 @@ jobs:
         with:
           project_id: '${{ env.PROJECT_ID }}'
           workload_identity_provider: '${{ env.WORKLOAD_IDENTITY_PROVIDER }}'
+          service_account: 'githubaction@myproject98163.iam.gserviceaccount.com'
       
       
       # BEGIN - Docker auth and build
