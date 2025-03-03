@@ -41,6 +41,11 @@ env:
   SERVICE: 'frontend' 
   REGION: 'europe-west6'
   WORKLOAD_IDENTITY_PROVIDER: 'projects/831933258224/locations/global/workloadIdentityPools/github/providers/my-repo'
+
+permissions:
+    id-token: write
+    contents: read
+    actions: read
   
  
    
